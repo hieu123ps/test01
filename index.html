@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+</head>
+<body>
+	<script type="text/javascript">
+		
+var n = 7;
+var p = (2*n-1)/2;
+for(let i = 1; i <= n; i++)
+{
+    var space = "";
+    for(let k = p; k > 0; k--) 
+    {
+        space +=" ";
+    }
+    var temp = "";
+    for(let j = 1; j <= (2*i-1); j++)
+    {
+        temp += "*";
+    }  
+    console.log(space + temp);
+    p--;
+}
+	</script>
+</body>
+</html>
